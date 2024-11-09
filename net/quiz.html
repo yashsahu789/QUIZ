@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>JavaScript Basics Quiz</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. Which symbol is used for comments in JavaScript?</p>
+                <label><input type="radio" name="q1" value="a"> A. #</label><br>
+                <label><input type="radio" name="q1" value="b"> B. < !-- -- > </label><br>
+                <label><input type="radio" name="q1" value="c"> C. // </label><br>
+                <label><input type="radio" name="q1" value="d"> D. /* */</label>
+            </div>
+
+            <div class="question">
+                <p>2. Which keyword is used to declare a variable in JavaScript?</p>
+                <label><input type="radio" name="q2" value="a"> A. cost</label><br>
+                <label><input type="radio" name="q2" value="b"> B. int</label><br>
+                <label><input type="radio" name="q2" value="c"> C. let</label><br>
+                <label><input type="radio" name="q2" value="d"> D. Both A and C</label>
+            </div>
+
+            <div class="question">
+                <p>3. What is the output of <code>console.log(typeof null)</code> in JavaScript?</p>
+                <label><input type="radio" name="q3" value="a"> A. "object"</label><br>
+                <label><input type="radio" name="q3" value="b"> B. "null"</label><br>
+                <label><input type="radio" name="q3" value="c"> C. "undefined"</label><br>
+                <label><input type="radio" name="q3" value="d"> D. "boolean"</label>
+            </div>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Restart">
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
